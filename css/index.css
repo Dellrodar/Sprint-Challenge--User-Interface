@@ -315,8 +315,15 @@ header nav a {
     width: 115px;
     border: 1px solid black;
     border-radius: 12px;
+    /* Stretch goal - experimental CSS animations */
+    transition: 1.5s ease-in-out;
 }
-
+/* Stretch goal - experimental CSS animations */
+.about-infobox button:hover {
+    transform: rotate(720deg);
+    color: forestgreen;
+    background-color: yellow;
+}
 
 .about-bottom-content h2{
     margin: 20px 2%;
@@ -325,3 +332,6 @@ header nav a {
 .about-bottom-content p {
     margin: 20px 2%;
 }
+
+
+
